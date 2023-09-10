@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{matrix.os}}  # for running all the OS in loop
       strategy:
         matrix:
-        os: [ubuntu-latest,window-latest,macOS-latest]
+          os: [ubuntu-latest,window-latest,macOS-latest]
 
     steps:
     - uses: actions/checkout@v3
