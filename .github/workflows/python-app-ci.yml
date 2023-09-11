@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{matrix.os}}  # for running all the OS in loop
     strategy:
       matrix:
-        os: [ubuntu-latest,window-latest,macOS-latest]
+        os: [ubuntu-latest,windows-latest,macOS-latest]
         python-version: ["3.9","3.10","3.11"]
 
     steps:
